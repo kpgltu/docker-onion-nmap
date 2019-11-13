@@ -127,11 +127,4 @@ Nmap done: 1 IP address (1 host up) scanned in 4.05 seconds
 ### Notes:
 
 - No UDP available over Tor
-- Tor can take 10-20 seconds to boot. If this is untenable, another option is to run the proxy in its own container, or run it as the main process and then run "exec" to call commands like nmap
-
-### gr33tz:
-
-- [@jessfraz](https://github.com/jessfraz) [tor-proxy](https://github.com/jessfraz/dockerfiles/tree/master/tor-proxy)
-- [@zuazo](https://github.com/zuazo) [alpine-tor-docker](https://github.com/zuazo/alpine-tor-docker)
-- [shellhacks](https://www.shellhacks.com/anonymous-port-scanning-nmap-tor-proxychains/)
-- [crypto-rebels.de](https://www.crypto-rebels.de/scanhidden.html)
+- Tor can take 10-20 seconds to boot. If this is untenable, another option is to run the proxy in its own container, or run it as the main process and then run "exec" to call commands like 
